@@ -1,4 +1,4 @@
-# Emotion detection using deep learning
+# Facial expression (emotion) analysis
 
 ## Introduction
 
