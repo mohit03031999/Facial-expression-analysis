@@ -6,7 +6,7 @@ Using a pretrained deep convolutional neural networks model, this research seeks
 
 ## Dependencies
 
-* Python 3, [OpenCV](https://opencv.org/), [Tensorflow](https://www.tensorflow.org/), [Keras](https://keras.io/)
+* Python 3, [OpenCV](https://opencv.org/), [Tensorflow](https://www.tensorflow.org/), [Keras](https://keras.io/), Numpy, time
 * Install the required packages, run `pip install mediapipe`.
 
 ## Algorithm
