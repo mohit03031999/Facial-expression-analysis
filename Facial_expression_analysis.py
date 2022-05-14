@@ -5,6 +5,8 @@ import numpy as np
 from keras.models import load_model
 from keras.preprocessing.image import img_to_array
 
+Path = "./"  # Path for reading the files
+
 # Creating a mediapipe face detector model and
 mp_facedetector = mp.solutions.face_detection
 mp_draw = mp.solutions.drawing_utils
@@ -16,7 +18,7 @@ classifier =load_model(r'C:\SDSU\Spring 2022\CS549 Machine Learning\Project\mode
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
 
 # Read a video file(Change the path for your own input)
-cap = cv2.VideoCapture("C:\SDSU\Spring 2022\CS549 Machine Learning\Project\Video Files\\00001.mp4")
+cap = cv2.VideoCapture(Path+"00007.mp4")
 
 # Giving the model parameters
 with mp_facedetector.FaceDetection(model_selection=1, min_detection_confidence=0.5) as face_detection:
